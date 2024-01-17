@@ -73,7 +73,7 @@ data.innerHTML =clutter
     scrollTrigger:{
         trigger: "#page2-container h2 span ",
         scroller: "body",
-        markers:true,
+        // markers:true,
         start:"top 60%",
         end:"top -40%",
         scrub:2
@@ -548,7 +548,7 @@ gsap.from("#page13",{
         start:"top 90%",
         end:"top 14%",
         scrub:1,
-        markers:true
+        // markers:true
 
     }
 })
